@@ -20,6 +20,7 @@ Website: https://siennabienna.github.io/workshop_1/
 ![image](https://github.com/user-attachments/assets/7e1a6757-8585-4451-bfb1-d34925ecac9f)
 
 These balls bounce from left to right and back again after they hit the side. For this I used another 'if' conditional to make it bounce back the way it came. 
+
 ![image](https://github.com/user-attachments/assets/6391d7cc-37cf-4515-8480-d6a6c7cfa5a0)
 
 ### After making this, I removed the background and found that all of the balls that are drawn are visible. This is because when the background is included in the draw loop, before the ball is drawn in its new position, the background is drawn again too to cover the last ball. So by removing this, or putting it in the setup, you eliminate the coverup and all balls are visible. I found this very interesting and would like to explore this more in future.
