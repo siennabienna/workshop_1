@@ -15,7 +15,7 @@ Website: https://siennabienna.github.io/workshop_1/
 
 ![image](https://github.com/user-attachments/assets/4acd0e34-475f-4a28-9295-394650a555db)
 
-###. Next, I had a play around with the background and colours. I was curious about what would happen if I removed the backround on a sketch, and I coded a bouncing ball squence to see this.
+### Next, I had a play around with the background and colours. I was curious about what would happen if I removed the backround on a sketch, and I coded a bouncing ball squence to see this.
 
 ![image](https://github.com/user-attachments/assets/7e1a6757-8585-4451-bfb1-d34925ecac9f)
 
