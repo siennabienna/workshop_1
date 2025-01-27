@@ -172,7 +172,9 @@ My plan was:
 5. Draw eye
 
 So first, I found the ellipse page on the p5 reference.
+
 https://p5js.org/reference/p5/ellipse/
+
 I then connected the fish up to the triangle I already had, and then I worked out how to do the cutout for the mouth.
 
 ![image](https://github.com/user-attachments/assets/ad019f57-0538-4a59-a65f-bade1e9b1aec)
