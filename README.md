@@ -219,7 +219,12 @@ function drawFish(fishX, fishY){
 
 Link to p5 for 'tappy fish': https://editor.p5js.org/siennabearbum/full/kO9-dRDrF 
 
-
+# Ideas for Further Development
+- use more complex functions, perhaps multiple funtions in the same sketch
+- Introduce some kind of function to the cheese code to make it more interesting
+- Use text more - I like using it as a title screen for a sketch, but it would be interesting to have it play a larger role
+- I think it would be interesting to try and figure out a way to draw the fish without using cutouts (shapes the same colour as the background) because when they overlap it's obvious - I could try using an arch function perhaps, or maybe some kind of bezier curve
+- use more complex shapes, and perhaps even images - it would be interesting to try and tell some kind of story with the code
 
 
 
