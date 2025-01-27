@@ -9,8 +9,8 @@ Website (SWISS CHEESE RANDOMISER (MULTI-PLATFORM EDITION): https://siennabienna.
 - Creating my own functions
 - Using text
 
-# Using `if'
-I first started with the varible 'if'. I used this to make a square move in the direction of the bottom right corner, and then if it went off the canvas, to move it back to 0. 
+# Using `if`
+I first started with the varible `if`. I used this to make a square move in the direction of the bottom right corner, and then if it went off the canvas, to move it back to 0. 
 ```js
 let x = 0
 
@@ -38,7 +38,7 @@ This allowed me to make sure it would continuously stay on the canvas. I also ma
 Link to p5 of 'LIT EXPANDING SQUARE': https://editor.p5js.org/siennabearbum/full/HY-5lSVXl 
 
 # Experimenting with Background
-Next, I had a play around with the background and colours. I was curious about what would happen if I removed the backround on a sketch, and I coded a bouncing ball squence to see this. These balls bounce from left to right and back again after they hit the side. For this I used another 'if' conditional to make it bounce back the way it came. 
+Next, I had a play around with the background and colours. I was curious about what would happen if I removed the backround on a sketch, and I coded a bouncing ball squence to see this. These balls bounce from left to right and back again after they hit the side. For this I used another `if` conditional to make it bounce back the way it came. 
 
 ```js
 let x = 0;
@@ -95,9 +95,9 @@ function draw() {
 
 Link to p5 of 'UGLY USELESS SQUARES': https://editor.p5js.org/siennabearbum/full/8F4KA204O
 
-# Using a 'for' Loop and `random`
+# Using a `for` Loop and `random`
 
-My plan for this was to make a piece of swiss cheese with random holes. I wanted the hole shape and hole size to be random. For this, I used the variable `random`, and also created a few of my own variables. I created the varibles HOLEPUNCH (which acted as x and would bring it back to 1 at the beginning of the loop), HOLECOUNT (which would be how many holes the cheese had), and lastly HOLESIZE (which would be the range of sizes the holes could generate as). I popped these variables into a 'for' loop, and then a randomiser. 
+My plan for this was to make a piece of swiss cheese with random holes. I wanted the hole shape and hole size to be random. For this, I used the variable `random`, and also created a few of my own variables. I created the varibles HOLEPUNCH (which acted as x and would bring it back to 1 at the beginning of the loop), HOLECOUNT (which would be how many holes the cheese had), and lastly HOLESIZE (which would be the range of sizes the holes could generate as). I popped these variables into a `for` loop, and then a randomiser. 
 
 ```js
 function setup() {
@@ -161,6 +161,7 @@ Not the best for telling the time, but still interesting.
 I wanted to have anther go at the tappy trianges I made in the last workshop tasks. The way the triangles were made reminded me of fish tails, so I decided to attempt to draw my own fish in a function.
 
 ![image](https://github.com/user-attachments/assets/ad16bd01-a685-4a96-a7c2-a2c5d707b3b4)
+
 This was my plan on how to draw the fish, and what shapes to use for it.
 
 My plan was:
@@ -175,6 +176,7 @@ https://p5js.org/reference/p5/ellipse/
 I then connected the fish up to the triangle I already had, and then I worked out how to do the cutout for the mouth.
 
 ![image](https://github.com/user-attachments/assets/ad019f57-0538-4a59-a65f-bade1e9b1aec)
+
 It required me to work out the distance from the center of the ellipse, and then create the parameters of the triangle appropriately. I did the same for cutting out the tail, and then just added a simple black circle for the eye. I removed the stroke so that it was all seamless. I then created the function `drawFish(fishX, fishY)`, and put all of my shapes into there. This allowed me to put the whole drawing under `mouseClicked` using my new function.
 
 ```js
