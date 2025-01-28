@@ -37,7 +37,7 @@ This allowed me to make sure it would continuously stay on the canvas. I also ma
 
 Link to p5 of 'LIT EXPANDING SQUARE': https://editor.p5js.org/siennabearbum/full/HY-5lSVXl 
 
-# Experimenting with Background and Problem Solving for Mobile Use
+# Experimenting with Background
 Next, I had a play around with the background and colours. I was curious about what would happen if I removed the backround on a sketch, and I coded a bouncing ball squence to see this. These balls bounce from left to right and back again after they hit the side. For this I used another `if` conditional to make it bounce back the way it came. 
 
 ```js
@@ -95,7 +95,7 @@ function draw() {
 
 Link to p5 of 'UGLY USELESS SQUARES': https://editor.p5js.org/siennabearbum/full/8F4KA204O
 
-# Using a `for` Loop and `random`
+# Using a `for` Loop, `random` and Problem Solving for Mobile Use
 
 My plan for this was to make a piece of swiss cheese with random holes. I wanted the hole shape and hole size to be random. For this, I used the variable `random`, and also created a few of my own variables. I created the varibles HOLEPUNCH (which acted as x and would bring it back to 1 at the beginning of the loop), HOLECOUNT (which would be how many holes the cheese had), and lastly HOLESIZE (which would be the range of sizes the holes could generate as). I popped these variables into a `for` loop, and then a randomiser. 
 
