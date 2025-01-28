@@ -37,7 +37,7 @@ This allowed me to make sure it would continuously stay on the canvas. I also ma
 
 Link to p5 of 'LIT EXPANDING SQUARE': https://editor.p5js.org/siennabearbum/full/HY-5lSVXl 
 
-# Experimenting with Background
+# Experimenting with Background and Problem Solving for Mobile Use
 Next, I had a play around with the background and colours. I was curious about what would happen if I removed the backround on a sketch, and I coded a bouncing ball squence to see this. These balls bounce from left to right and back again after they hit the side. For this I used another `if` conditional to make it bounce back the way it came. 
 
 ```js
