@@ -182,25 +182,9 @@ I then connected the fish up to the triangle I already had, and then I worked ou
 It required me to work out the distance from the center of the ellipse, and then create the parameters of the triangle appropriately. I did the same for cutting out the tail, and then just added a simple black circle for the eye. I removed the stroke so that it was all seamless. I then created the function `drawFish(fishX, fishY)`, and put all of my shapes into there. This allowed me to put the whole drawing under `mouseClicked` using my new function.
 
 ```js
-function setup() {
-  createCanvas(400, 400);
-    background(0, 128, 120);
-  textAlign(CENTER,CENTER);
-  text('click for fish', 200, 200);
- 
-}
-
-function draw() {
-
-
-}
- 
-
-
   function mouseClicked() {
     fill(random(0, 255), random(0,255), random(255));
-    drawFish(mouseX, mouseY);
- 
+    drawFish(mouseX, mouseY); 
 }
 
 function drawFish(fishX, fishY){
